@@ -1,9 +1,6 @@
-namespace GraphQLServer;
+using System;
 
-public class Query
-{
-    public Person GetPerson() => new Person("Luke Skywalker");
-}
+namespace GraphQLServer.Models;
 
 public class Person
 {
